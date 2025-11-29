@@ -3,8 +3,7 @@
 **Author:** Ronik Bajakke  
 **Email:** ronikbajakke172913@gmail.com  
 **Test Email:** ronikbajakke172913+test@gmail.com  
-**Tech Stack:** React (Vite)  
-**Date:** 29/11/2025  
+**Tech Stack:** React (Vite)   
 
 ---
 
@@ -19,14 +18,16 @@ Using the required **+test Gmail**, I created a CometChat app, explored the dash
 
 Created a new account using the test Gmail and then created a CometChat application through the dashboard.
 
-📸 **Screenshot required here**
-
+### ➕ Sign Up  
+![Login](/Assets/login.png)
 ---
 
 ## 🧭 2. Explore Dashboard & UI Kit Builder  
 
 Explored UI clarity, navigation, and opened the **UI Kit Builder**.
 
+### ➕ Dashboard  
+![Login](/Assets/dashboard.png)
 ---
 
 ## ⚙️ 3. Configure & Download UI Kit  
@@ -36,7 +37,11 @@ Explored UI clarity, navigation, and opened the **UI Kit Builder**.
 - Enabled features & components  
 - Downloaded the generated UI Kit  
 
-📸 **Screenshot required here**
+### ➕ Framework  
+![Framework](/Assets/framework.png)
+
+### ➕ Features  
+![Features](/Assets/features.png)
 
 ---
 
@@ -54,24 +59,18 @@ npm run dev
 
 ---
 
-## 📸 Screenshots Required
+## Bugs or Errors
+### Dashboard Bug At Team Members  
+![bug](/Assets/bug1.png)
 
-### 🟢 Running Project
-👉 Screenshot required here
+### Dashboard Bug At Chats->Logs 
+![bug](/Assets/bug2.png)
 
-### 💬 Chat UI
-👉 Screenshot required here
+### UI Kit Builder(59 errors) 
+![bug](/Assets/bug3.png)
 
-### 👥 Group UI
-👉 Screenshot required here
-
-### 📞 Call UI
-👉 Screenshot required here
-
----
-
-## 🎥 Demo Video
-👉 Upload your screen recording of the working UI
+### UI Kit Implementation - Leave Group  
+![bug](/Assets/bug4.png)
 
 ---
 
