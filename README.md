@@ -1,73 +1,118 @@
-# React + TypeScript + Vite
+# 🚀 CometChat Internship Task – UI Kit Implementation (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Author:** Ronik Bajakke  
+**Email:** ronikbajakke172913@gmail.com  
+**Test Email:** ronikbajakke172913+test@gmail.com  
+**Tech Stack:** React (Vite)  
+**Date:** 29/11/2025  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Overview  
 
-## React Compiler
+This repository contains my implementation of the **CometChat React UI Kit** for the Internship Task.  
+Using the required **+test Gmail**, I created a CometChat app, explored the dashboard, configured the UI Kit inside the **UI Kit Builder**, downloaded the React project, and implemented it locally.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📝 1. Sign Up & Create App  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Created a new account using the test Gmail and then created a CometChat application through the dashboard.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+📸 **Screenshot required here**
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🧭 2. Explore Dashboard & UI Kit Builder  
+
+Explored UI clarity, navigation, and opened the **UI Kit Builder**.
+
+---
+
+## ⚙️ 3. Configure & Download UI Kit  
+
+- Selected **React Framework**
+- Customized theme  
+- Enabled features & components  
+- Downloaded the generated UI Kit  
+
+📸 **Screenshot required here**
+
+---
+
+## 💻 4. Implementing the UI Kit (React)
+
+> Note: Real API keys are not included in this repo.
+
+---
+
+### ▶️ Run Project
+
+cd comet-chat-app
+npm install @cometchat/chat-uikit-react@6.3.2 @cometchat/calls-sdk-javascript
+npm run dev
+
+---
+
+## 📸 Screenshots Required
+
+### 🟢 Running Project
+👉 Screenshot required here
+
+### 💬 Chat UI
+👉 Screenshot required here
+
+### 👥 Group UI
+👉 Screenshot required here
+
+### 📞 Call UI
+👉 Screenshot required here
+
+---
+
+## 🎥 Demo Video
+👉 Upload your screen recording of the working UI
+
+---
+
+## 🗂️ Folder Structure
+```bash
+comet-chat-app/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── CometChat/
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+└── index.html
 ```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📄 PDF Document Included
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+A separate PDF is included summarizing findings for all four required areas:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 📌 Areas Covered
+- Dashboard  
+- UI Kit Builder  
+- Documentation  
+- Actual UI Kit Implementation  
+
+### 📝 Each Section Contains:
+- Expected vs Actual behavior  
+- Friction points  
+- Bugs or issues  
+- Missing/unclear instructions  
+- Outdated documentation  
+- Suggestions for improvement  
+
+---
+
+## 👨‍💻 Author
+
+**Ronik Bajakke**  
+📧 Email: ronikbajakke172913@gmail.com  
+📧 Test Email: ronikbajakke172913+test@gmail.com  
+🌐 GitHub: https://github.com/Ronik-Bajakke
