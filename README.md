@@ -113,7 +113,7 @@ comet-chat-app/
 
 ## 📄 PDF Document Included
 
-A separate PDF is included summarizing findings for all four required areas:
+A separate PDF CometChat-Ronik-Bajakke.pdf is included summarizing findings for all four required areas:
 
 ### 📌 Areas Covered
 - Dashboard  
