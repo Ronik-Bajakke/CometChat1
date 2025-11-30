@@ -25,6 +25,10 @@ Created a new account using the test Gmail and then created a CometChat applicat
 
 Explored UI clarity, navigation, and opened the **UI Kit Builder**.
 
+
+https://github.com/user-attachments/assets/7c882def-4262-4a93-bb90-207652546e4a
+
+
 ### ➕ Dashboard  
 ![Login](/Assets/dashboard.png)
 
@@ -47,6 +51,10 @@ Explored UI clarity, navigation, and opened the **UI Kit Builder**.
 ## 💻 4. Implementing the UI Kit (React)
 
 > Note: Real API keys are not included in this repo.
+
+
+https://github.com/user-attachments/assets/81f894dc-ceed-45e8-92b2-9aa75a173344
+
 
 ---
 
